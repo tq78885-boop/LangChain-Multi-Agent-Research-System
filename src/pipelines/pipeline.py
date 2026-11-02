@@ -40,7 +40,7 @@ def run_research_pipeline(topic : str) -> dict:
 
     research_combined = (
         f"SEARCH RESULTS : \n {state['search_results']} \n\n"
-        f"DETAILED SCRAPED CONTENT : \n {state['scraped_ccontent']}"
+        f"DETAILED SCRAPED CONTENT : \n {state['scraped_content']}"
     )
     state["report"] = writer_chain.invoke({
         "topic" : topic,
