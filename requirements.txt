@@ -13,3 +13,6 @@ requests>=2.31.0
 lxml>=5.0.0
 # Environment variables
 python-dotenv>=1.0.0
+
+rich>=13.7.0
+trafilatura>=1.6.0
